@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root {
+  --nav:#333;
+  --nav1:#1A1A1A;
+  --nav2:#101010;
+  --background1:#000000;
+  --background2:url(https://cdn-mnweb.miniworldgame.com/wp-content/uploads/2019/07/banner-bg.png);
+  --background3:url(https://www.kidslifestudio.com/wp-content/uploads/footer-background.jpg);
+  --background4:linear-gradient( 35deg, #ccffff,#ffcccc);
+  --text1:white;
+  --text2:black;
+  --text3:greenyellow;
+  --text4:red;
+  --text5:skyblue;
+  --text6:#e91e63;
+  --colorDeco1:#3caae9;
+  --colorDeco2:yellowgreen;
+  --colorDeco3:#ffcccc;
+  --colorDeco4:#1877f2;
+  --colorDeco5:grey;
+  --colorDeco6:white;
+  --colorDeco7:black;
+  --colorDeco8:pink;
+  --colorDeco9:#e91e63;
+  --colorDeco10:red;
+}
+body {
+  overflow: hidden;
+  background-color: var(--background1);
+}
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width:1031px) {
+  
+}
+@media only screen and (min-width:1031px) {
+  .home, .chart, .introduction, .listStatistical, .securities, .setting, .tablePrice, .tableUserInformation {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+  .leftMenu {
+    width:4%;
+    height: 100%;
+  }
+  .rightContainer {
+    width:96%;
+    height: 100%;
+  }
+}

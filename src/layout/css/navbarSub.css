@@ -1,0 +1,39 @@
+.navbarSub {
+    background-color: var(--nav);
+    width: 100%;
+    height:100vh;
+}
+.headerNavSub {
+    height:100px;
+}
+.headerNavSub .Logo .linkHome img {
+    width: 56px;
+    height: 56px;
+}
+.headerNavSub .btnOpenNavbarMain{
+    position:relative;
+    top: 10px;
+    left:18px;
+    color: var(--text3);
+}
+.NavListSub {
+    height: 100%;
+}
+.listMenuSub {
+    width: 100%;
+    height: 80vh;
+}
+.trMenuSub, .tdMenuSub {
+    width: 40px;
+    height: 40px;
+}
+.itemSub {
+    margin-left: 18px;
+    color:var(--text3);
+    text-decoration: none;
+}
+.itemSub:hover {
+    margin-left: 18px;
+    color:var(--text3);
+    text-decoration: none;
+}
